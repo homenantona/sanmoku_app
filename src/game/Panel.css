@@ -1,0 +1,44 @@
+#panel_grid > div{
+    display: grid;
+    width: 255px;
+    grid-template:
+    "cel01 cel02 cel03" 85px
+    "cel04 cel05 cel06" 85px
+    "cel07 cel08 cel09" 85px /
+    85px 85px 85px;
+}
+#panel_grid div button{
+    border:1px solid rgb(34, 34, 34);
+    background-color: rgba(0,0,0,0);
+    font-size:50px;
+}
+#panel_grid div button:nth-child(even){
+    background-color: rgba(252, 144, 144, 0.3);
+}
+#panel_grid div button:nth-child(odd){
+    background-color: rgba(144, 173, 252, 0.3);
+}
+#panel_grid div button:nth-child(1){
+    grid-area: cel01;
+}
+#panel_grid div button:nth-child(2){
+    grid-area: cel02;
+}
+#panel_grid div button:nth-child(3){
+    grid-area: cel03;
+}
+#panel_grid div button:nth-child(4){
+    grid-area: cel04;
+}
+#panel_grid div button:nth-child(5){
+    grid-area: cel05;
+}
+#panel_grid div button:nth-child(6){
+    grid-area: cel06;
+}
+#panel_grid div button:nth-child(7){
+    grid-area: cel07;
+}
+#panel_grid div button:nth-child(8){
+    grid-area: cel08;
+}

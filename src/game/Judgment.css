@@ -1,0 +1,22 @@
+.flex_set{
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+    justify-content: space-between;
+}
+.panelSec{
+    width: 255px;
+}
+.judgmentSec{
+    width: 250px;
+}
+.listItem{
+    display: flex;
+    border-bottom:1px solid #333;
+
+}
+.listItem p{
+    margin: 0;
+    padding: 10px 5px;
+    width: 50%;
+}
